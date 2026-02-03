@@ -1,0 +1,13 @@
+title: Labs Cybersécurité
+description: Documentation technique de mes projets SOC, Cloud & DevSecOps
+url: https://issamentacode.github.io
+baseurl: /labs
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+
+# Search
+search_enabled: true
+
+# Navigation
+heading_anchors: true
