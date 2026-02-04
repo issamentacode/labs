@@ -2,102 +2,106 @@
 layout: default
 title: Accueil
 nav_order: 1
-description: "Documentation technique de 40 labs en cybersécurité - SOC, Cloud, DevSecOps, Threat Intelligence"
+description: "Documentation technique complète de mes 60 labs en cybersécurité, cloud, DevSecOps, réseaux et infrastructure"
 permalink: /
 ---
 
-# 🛡️ Labs Cybersécurité & Cloud Security
+# 🛡️ Labs Cybersécurité & Infrastructure
 
 {: .fs-9 }
 
-Documentation technique complète de mes **40 projets pratiques** en cybersécurité, couvrant le SOC, la sécurité cloud, le DevSecOps et la threat intelligence.
+Documentation technique de mes projets pratiques en **SOC**, **Sécurité Cloud**, **DevSecOps**, **Threat Intelligence**, **Réseaux & Systèmes** et **Infrastructure**.
 
 {: .fs-6 .fw-300 }
 
-[Voir mon Portfolio](https://issa-menta-portfolio.vercel.app){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Voir mon Portfolio](https://issamentaportfolio.vercel.app){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Me contacter](mailto:issamono62@gmail.com){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## 🎯 À propos de cette documentation
 
-Ce site regroupe l'ensemble de mes **travaux pratiques** et **projets techniques** réalisés dans le cadre de mon MSc Cybersécurité à ECE Paris.
+Ce site regroupe l'ensemble de mes **travaux pratiques** et **projets techniques** dans le domaine de la cybersécurité, des réseaux et de l'infrastructure. Chaque lab est documenté avec :
 
-Chaque lab est documenté avec :
-
-- ✅ **Contexte professionnel** : Pourquoi ce lab est important pour un SOC Analyst / Cloud Security Engineer
-- 🏗️ **Architecture technique** : Diagrammes et schémas d'infrastructure
-- 🔧 **Configuration détaillée** : Commandes exactes, fichiers de config, code source
-- 📊 **Résultats & captures** : Screenshots et preuves de fonctionnement
-- 🎓 **Compétences démontrées** : Skills techniques acquises
-
-{: .note }
-
-> Ce site est **mis à jour régulièrement** au fur et à mesure de l'avancement des projets. Les labs marqués 🚧 sont en cours de réalisation, ceux marqués 📝 sont planifiés.
+- ✅ **Contexte professionnel** : Pourquoi ce lab est important
+- 🏗️ **Architecture technique** : Diagrammes et schémas
+- 🔧 **Configuration détaillée** : Commandes et étapes exactes
+- 📊 **Résultats & captures** : Preuves de fonctionnement
+- 🎓 **Compétences démontrées** : Ce que j'ai appris
 
 ---
 
 ## 📚 Catégories de Labs
 
-### 🔍 SOC & Détection d'Intrusions (10 labs)
+### 🔍 SOC & Détection d'Intrusions
 
-Installation et configuration de SIEM, création de règles de détection, analyse de use cases d'incidents, threat hunting proactif.
+**10 labs** sur la détection de menaces, l'analyse de logs et la réponse aux incidents.
 
-**Technologies** : Wazuh, ELK Stack, Splunk, Suricata, Snort
-
-[Explorer les labs SOC →]({{ site.baseurl }}{% link soc-detection.md %}){: .btn .btn-outline }
+[Explorer les labs SOC →](/labs/soc-detection/)
 
 ---
 
-### ☁️ Sécurité Cloud & Infrastructure (10 labs)
+### ☁️ Sécurité Cloud & Infrastructure
 
-Sécurisation AWS et Azure, Infrastructure as Code, audit de compliance, disaster recovery, conteneurs sécurisés.
+**10 labs** sur AWS, Azure, Terraform et la sécurisation d'infrastructures cloud.
 
-**Technologies** : AWS (IAM, GuardDuty, S3), Azure (Sentinel), Terraform, Kubernetes
-
-[Explorer les labs Cloud →]({{ site.baseurl }}{% link cloud-security.md %}){: .btn .btn-outline }
+[Explorer les labs Cloud →](/labs/cloud-security/)
 
 ---
 
-### 🔐 DevSecOps & CI/CD Sécurisé (10 labs)
+### 🔐 DevSecOps & CI/CD Sécurisé
 
-Intégration de la sécurité dans les pipelines de développement : SAST, DAST, SCA, container scanning, policy as code.
+**10 labs** sur l'intégration de la sécurité dans les pipelines de développement.
 
-**Technologies** : GitHub Actions, Semgrep, Trivy, Snyk, OPA, ArgoCD
-
-[Explorer les labs DevSecOps →]({{ site.baseurl }}{% link devsecops.md %}){: .btn .btn-outline }
+[Explorer les labs DevSecOps →](/labs/devsecops/)
 
 ---
 
-### 🌐 Threat Intelligence & OSINT (5 labs)
+### 🌐 Threat Intelligence & OSINT
 
-Collecte et analyse de threat intelligence, automation, OSINT, threat modeling applicatif.
+**10 labs** sur la collecte de renseignements sur les menaces et l'OSINT.
 
-**Technologies** : MISP, TheHive, Cortex, Python, APIs publiques
-
-[Explorer les labs Threat Intel →]({{ site.baseurl }}{% link threat-intel.md %}){: .btn .btn-outline }
+[Explorer les labs Threat Intel →](/labs/threat-intel/)
 
 ---
 
-### 💼 Business & Portfolio (5 labs)
+### 🌐 Réseaux & Systèmes
 
-Labs combinant compétences techniques et valorisation professionnelle : email hardening, tunneling sécurisé, monitoring.
+**10 labs** sur l'administration réseau, la configuration de services et le monitoring.
 
-**Technologies** : Hostinger, Cloudflare Tunnel, Vercel, GitHub Pages
-
-[Explorer les projets Business →]({{ site.baseurl }}{% link business.md %}){: .btn .btn-outline }
+[Explorer les labs Réseaux →](/labs/reseaux-systemes/)
 
 ---
 
-## 🚀 Labs en cours & à venir
+### 🏗️ Infrastructure & Logiciels
 
-| Lab    | Titre                            | Catégorie | Statut          |
-| ------ | -------------------------------- | --------- | --------------- |
-| **38** | Documentation Hub GitHub Pages   | Business  | ✅ **Terminé**  |
-| **36** | Email Hardening (SPF/DKIM/DMARC) | Business  | 🚧 **En cours** |
-| **01** | Installation Wazuh SIEM          | SOC       | 📝 Planifié     |
-| **11** | AWS IAM Hardening                | Cloud     | 📝 Planifié     |
-| **21** | Pipeline CI/CD Sécurisé          | DevSecOps | 📝 Planifié     |
+**10 labs** sur le déploiement d'infrastructures, la conteneurisation et l'hébergement.
+
+[Explorer les labs Infrastructure →](/labs/infrastructure-logiciels/)
+
+---
+
+### 💼 Projets Business & Portfolio
+
+**10 labs** combinant technique et valorisation professionnelle.
+
+[Explorer les projets Business →](/labs/business/)
+
+---
+
+## 🚀 Labs en cours de développement
+
+{: .note }
+
+> Ce site est **mis à jour régulièrement** au fur et à mesure de l'avancement des projets. Les labs marqués 🚧 sont en cours de réalisation.
+
+| Lab                                 | Statut      | Catégorie      |
+| ----------------------------------- | ----------- | -------------- |
+| Lab 36 - Email Hardening            | 🚧 En cours | Business       |
+| Lab 39 - SIEM via Cloudflare Tunnel | 📝 Planifié | Business       |
+| Lab 01 - Wazuh SIEM                 | 📝 Planifié | SOC            |
+| Lab 41 - Configuration DNS          | 📝 Planifié | Réseaux        |
+| Lab 51 - Stack LAMP Sécurisée       | 📝 Planifié | Infrastructure |
 
 ---
 
@@ -105,40 +109,29 @@ Labs combinant compétences techniques et valorisation professionnelle : email h
 
 Ces projets démontrent ma capacité à :
 
-- **Déployer et sécuriser** des infrastructures modernes (cloud, on-premise, hybride)
-- **Analyser et répondre** aux incidents de sécurité en temps réel
-- **Automatiser** les tâches de sécurité avec du code (Python, Bash, IaC)
-- **Documenter** de manière claire et professionnelle
-- **Utiliser** les outils standards de l'industrie (SIEM, IDS, Cloud, CI/CD)
+- **Déployer et sécuriser** des infrastructures modernes
+- **Analyser et répondre** aux incidents de sécurité
+- **Automatiser** les tâches de sécurité avec du code
+- **Documenter** de manière professionnelle
+- **Utiliser** les outils de l'industrie (SIEM, IDS, Cloud, CI/CD)
 
 ---
 
-## 🛠️ Stack technique globale
+## 📊 Vue d'ensemble
 
-| Catégorie                  | Technologies                                    |
-| -------------------------- | ----------------------------------------------- |
-| **SIEM & Detection**       | Wazuh, ELK Stack, Splunk, Suricata, Snort       |
-| **Cloud Platforms**        | AWS, Azure, GCP                                 |
-| **Infrastructure as Code** | Terraform, CloudFormation, Ansible              |
-| **DevSecOps**              | GitHub Actions, GitLab CI, Semgrep, Trivy, Snyk |
-| **Threat Intelligence**    | MISP, TheHive, Cortex, OSINT Tools              |
-| **Scripting**              | Python, Bash, PowerShell                        |
-| **Containers**             | Docker, Kubernetes, Helm                        |
+<div class="code-example" markdown="1">
 
----
+**60+ labs techniques** répartis sur :
 
-## 👨‍💻 À propos de moi
+- 🔍 SOC & Détection (10 labs)
+- ☁️ Sécurité Cloud (10 labs)
+- 🔐 DevSecOps (10 labs)
+- 🌐 Threat Intelligence (10 labs)
+- 🌐 Réseaux & Systèmes (10 labs)
+- 🏗️ Infrastructure & Logiciels (10 labs)
+- 💼 Business & Portfolio (10 labs)
 
-Je suis **Issa MENTA**, étudiant en **MSc Cybersécurité à ECE Paris**, passionné par le pentesting, la sécurité cloud et l'intelligence artificielle appliquée à la cybersécurité.
-
-**Mon profil** :
-
-- 🎓 MSc Cybersécurité (ECE Paris, 2024-2026)
-- 🎓 Master Réseaux & Sécurité (Université Djillali Liabès, Algérie)
-- 🏆 8+ certifications (CEH Fundamentals, IBM Cybersecurity Analyst, etc.)
-- 💼 Recherche active de stage en SOC / Cloud Security
-
----
+## </div>
 
 ## 📞 Contact & Liens
 
