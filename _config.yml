@@ -3,7 +3,7 @@ title: "Security Labs Documentation"
 description: "Technical documentation of 60+ hands-on security laboratories"
 url: "https://issamentacode.github.io"
 baseurl: "/labs"
-theme: "just-the-docs"
+remote_theme: just-the-docs/just-the-docs
 
 # Search
 search_enabled: true
