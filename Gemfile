@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+gem "github-pages", group: :jekyll_plugins
+gem "just-the-docs"
+
 # gem "rails"
 
 gem "jekyll", "~> 4.4"
@@ -17,5 +20,5 @@ gem "jekyll-feed"
 gem "jekyll-seo-tag"
 
 # Ajoute ou vérifie ces lignes dans ton Gemfile
-gem "just-the-docs"
+
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
