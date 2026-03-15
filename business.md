@@ -3,108 +3,143 @@ layout: default
 title: Business & Portfolio
 nav_order: 6
 has_children: true
+permalink: /business/
 ---
 
-# 💼 Business & Portfolio
+# Business & Portfolio Projects
 
 {: .fs-7 }
 
-Labs combinant **compétences techniques** et **valorisation professionnelle**. Configuration de services démontrables, exposition sécurisée de labs, construction d'un écosystème professionnel.
+Professional demonstration projects combining technical security implementation with business value, portfolio development, and operational service deployment.
 
 ---
 
-## 🎯 Objectif de cette section
+## Overview
 
-- **Transformer Hostinger** en infrastructure de démonstration professionnelle
-- **Créer des services live** accessibles par les recruteurs
-- **Construire la boucle de liens** : GitHub ↔ Vercel ↔ Hostinger ↔ CV
-- **Développer une expertise commercialisable** (consulting, freelance)
+This category focuses on practical implementations that demonstrate both technical proficiency and business acumen. Projects in this category combine security infrastructure deployment with professional branding, service availability, and portfolio development, creating tangible demonstrations of capability for professional opportunities.
 
----
+## Core Objectives
 
-## 📚 Labs de cette catégorie
+### Infrastructure Demonstration
 
-| #      | Titre                            | Technologies          | Durée | Statut          |
-| ------ | -------------------------------- | --------------------- | ----- | --------------- |
-| **36** | Email Hardening (SPF/DKIM/DMARC) | Hostinger DNS, Email  | 2h    | 🚧 **En cours** |
-| **37** | Portfolio Vercel avec Analytics  | Vercel, Vue.js        | 3h    | 📝 Planifié     |
-| **38** | Documentation Hub GitHub Pages   | Jekyll, Just the Docs | 2h    | ✅ **Terminé**  |
-| **39** | SIEM via Cloudflare Tunnel       | Wazuh, Cloudflare     | 3h    | 📝 Planifié     |
-| **40** | Script de Monitoring Global      | Python, Bash          | 4h    | 📝 Planifié     |
+Transform infrastructure investments into professional demonstrations of technical capability, creating live, accessible implementations that showcase practical security knowledge.
 
----
+**Focus Areas:**
 
-## 🛠️ Technologies utilisées
+- Production-grade service deployment
+- Public accessibility with security controls
+- Professional presentation and documentation
+- Service reliability and monitoring
 
-### Hosting & DNS
+### Professional Branding
 
-- **Hostinger Business Plan** : Hébergement web, email, DNS
-- **Cloudflare** : CDN, DNS, tunneling sécurisé
-- **Vercel** : Déploiement frontend (Next.js, Vue.js)
+Development of professional digital presence through integrated portfolio, documentation, and service infrastructure.
 
-### Documentation & Portfolio
+**Components:**
 
-- **GitHub Pages** : Hébergement de documentation statique
-- **Just the Docs** : Thème Jekyll professionnel
-- **Vue.js / React** : Framework frontend pour portfolio
+- Portfolio website deployment and optimization
+- Technical documentation infrastructure
+- Professional email and communication systems
+- Integrated online professional ecosystem
 
-### Monitoring & Automation
+### Service Deployment
 
-- **Python** : Scripts de monitoring et alerting
-- **Bash** : Automation système
-- **GitHub Actions** : CI/CD pour déploiement
+Implementation of operational services that demonstrate practical security knowledge while providing functional value.
+
+**Technologies:**
+
+- Cloud hosting and content delivery
+- Email security hardening
+- Monitoring and automation systems
+- Documentation platforms
 
 ---
 
-## 💡 Valeur ajoutée pour recruteurs
+## Laboratory Catalog
 
-Ces labs démontrent :
-
-- ✅ **Capacité à déployer** des services en production
-- ✅ **Sécurisation d'infrastructures** réelles (email, DNS, tunneling)
-- ✅ **Documentation professionnelle** de niveau entreprise
-- ✅ **Vision business** de la cybersécurité (pas juste technique)
-- ✅ **Proactivité** dans la construction de son personal branding
+| Lab | Title                            | Technologies              | Duration | Status      |
+| --- | -------------------------------- | ------------------------- | -------- | ----------- |
+| 36  | Email Security Hardening         | SPF, DKIM, DMARC, DNS     | 2h       | In Progress |
+| 37  | Portfolio Deployment             | Vercel, Vue.js, Analytics | 3h       | Planned     |
+| 38  | Documentation Infrastructure     | Jekyll, GitHub Pages      | 2h       | Completed   |
+| 39  | SIEM via Cloudflare Tunnel       | Wazuh, Cloudflare         | 3h       | Planned     |
+| 40  | Infrastructure Monitoring System | Python, Bash, Automation  | 4h       | Planned     |
 
 ---
 
-## 🔗 Architecture de l'écosystème
+## Technology Stack
+
+### Hosting and Infrastructure
+
+- **Cloud Hosting:** Professional web hosting services
+- **Cloudflare:** Content delivery network and security services
+- **Vercel:** Frontend deployment and hosting platform
+
+### Documentation and Portfolio
+
+- **GitHub Pages:** Static site hosting for documentation
+- **Jekyll:** Static site generator with professional themes
+- **Vue.js/React:** Frontend frameworks for portfolio development
+
+### Monitoring and Automation
+
+- **Python:** Infrastructure automation and monitoring scripts
+- **Bash:** System-level automation
+- **GitHub Actions:** Continuous integration and deployment
+
+---
+
+## Professional Value
+
+These projects demonstrate capabilities valued in professional security roles:
+
+- Production service deployment and management
+- Security implementation in real-world scenarios
+- Documentation and knowledge sharing practices
+- Professional communication and branding
+- Business understanding of security investments
+
+---
+
+## Integration Architecture
+
+Professional ecosystem integration:
 
 ```
-CV / LinkedIn
-    ↓
-Portfolio Vercel (issamentaportfolio.vercel.app)
-    ↓
-GitHub Pages (issamentacode.github.io/labs)
-    ↓
-Services Hostinger (email pro, sites démo)
-    ↓
-Labs live (SIEM via tunnel, dashboards)
+Professional CV/Resume
+        ↓
+Portfolio Website (Vercel)
+        ↓
+Technical Documentation (GitHub Pages)
+        ↓
+Live Security Implementations
+        ↓
+Professional Communication (Email, LinkedIn)
 ```
 
-**Tout est interconnecté** : un recruteur peut naviguer de mon CV à mes labs techniques en 3 clics.
+All components interconnected, creating seamless professional presence accessible in three clicks from curriculum vitae.
 
 ---
 
-## 💼 Opportunités de monétisation
+## Business Applications
 
-En complétant ces labs, je développe aussi des **services freelance** :
+Completed implementations support professional services:
 
-- **Pack Artisan** : Site vitrine sécurisé pour TPE (200-300€)
-- **Audit Email Security** : Configuration SPF/DKIM/DMARC (150€)
-- **Déploiement SIEM** : Installation Wazuh pour PME (500-800€)
-
-→ Mon abonnement Hostinger s'auto-finance en 1-2 clients.
+- Security infrastructure consulting
+- Email security configuration services
+- SIEM deployment and configuration
+- Documentation and knowledge base development
+- Professional portfolio development
 
 ---
 
-## 📖 Ressources complémentaires
+## Additional Resources
 
-- [Hostinger Documentation](https://support.hostinger.com/)
-- [Cloudflare Tunnel Guide](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
+- [Cloudflare Documentation](https://developers.cloudflare.com/)
 - [Vercel Documentation](https://vercel.com/docs)
 - [GitHub Pages Guide](https://docs.github.com/en/pages)
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ---
 
-[← Retour à l'accueil]({{ site.baseurl }}/){: .btn .btn-outline }
+[← Return to Home]({{ site.baseurl }}/){: .btn .btn-outline }

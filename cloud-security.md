@@ -1,76 +1,159 @@
 ---
 layout: default
-title: Sécurité Cloud
+title: Cloud Security
 nav_order: 3
 has_children: true
+permalink: /cloud-security/
 ---
 
-# ☁️ Sécurité Cloud & Infrastructure
+# Cloud Security
 
 {: .fs-7 }
 
-Labs sur la sécurisation d'infrastructures cloud modernes : AWS, Azure, GCP. Configuration IAM, monitoring de menaces, Infrastructure as Code sécurisée, audit de compliance.
+Implementation of security controls and best practices across cloud service providers, focusing on identity and access management, network isolation, data protection, compliance automation, and security monitoring.
 
 ---
 
-## 🎯 Compétences développées
+## Overview
 
-- **Sécurisation AWS** : IAM, GuardDuty, CloudTrail, S3, VPC
-- **Monitoring Azure** : Sentinel, Security Center, Log Analytics
-- **Infrastructure as Code** : Terraform, CloudFormation, sécurisation
-- **Audit & Compliance** : CIS Benchmarks, scanner de vulnérabilités
-- **Disaster Recovery** : Stratégie de backup et restauration
-- **Containers Security** : Kubernetes hardening, Pod Security
+Cloud security encompasses the policies, technologies, and controls deployed to protect data, applications, and infrastructure in cloud computing environments. This category covers security implementations across AWS, Azure, and Google Cloud Platform, addressing the unique challenges of shared responsibility models and distributed cloud architectures.
+
+## Core Competencies
+
+### Identity and Access Management
+
+Implementation of least-privilege access controls, role-based access control (RBAC), multi-factor authentication, and identity federation.
+
+**Focus Areas:**
+
+- IAM policy design and implementation
+- Service account management
+- Cross-account access patterns
+- Identity federation and single sign-on
+- Privileged access management
+
+### Network Security
+
+Design and implementation of secure network architectures including network segmentation, traffic filtering, and secure connectivity patterns.
+
+**Technologies:**
+
+- Virtual Private Cloud (VPC) architecture
+- Network security groups and access control lists
+- Web Application Firewall (WAF) configurations
+- DDoS protection implementations
+- VPN and private connectivity solutions
+
+### Data Protection
+
+Implementation of encryption, key management, data classification, and backup strategies for data at rest and in transit.
+
+**Capabilities:**
+
+- Encryption key management (KMS, Key Vault)
+- Data classification and labeling
+- Storage encryption configurations
+- Database encryption implementations
+- Backup and recovery automation
+
+### Compliance and Governance
+
+Automated compliance monitoring, policy enforcement, and governance frameworks for cloud environments.
+
+**Tools:**
+
+- AWS Config and Security Hub
+- Azure Policy and Blueprints
+- GCP Security Command Center
+- Compliance scanning and reporting
+- Configuration drift detection
 
 ---
 
-## 📚 Labs de cette catégorie
+## Laboratory Catalog
 
-| #      | Titre                           | Plateforme  | Durée | Difficulté | Statut     |
-| ------ | ------------------------------- | ----------- | ----- | ---------- | ---------- |
-| **11** | Durcissement AWS IAM            | AWS         | 3h    | ⭐⭐       | 📝 À venir |
-| **12** | AWS GuardDuty Configuration     | AWS         | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **13** | Sécurisation S3 Buckets         | AWS         | 2h    | ⭐⭐       | 📝 À venir |
-| **14** | Azure Sentinel Monitoring       | Azure       | 4h    | ⭐⭐⭐     | 📝 À venir |
-| **15** | Terraform Infra Sécurisée       | Multi-cloud | 5h    | ⭐⭐⭐⭐   | 📝 À venir |
-| **16** | Scanner Vulnérabilités Cloud    | AWS/Azure   | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **17** | VPC Sécurisé avec Segmentation  | AWS         | 4h    | ⭐⭐⭐     | 📝 À venir |
-| **18** | Secrets Management              | AWS/Vault   | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **19** | Backup & Disaster Recovery      | Multi-cloud | 4h    | ⭐⭐⭐     | 📝 À venir |
-| **20** | Conteneurs Sécurisés Kubernetes | K8s         | 5h    | ⭐⭐⭐⭐   | 📝 À venir |
+| Lab | Title                           | Platform    | Duration | Complexity | Status  |
+| --- | ------------------------------- | ----------- | -------- | ---------- | ------- |
+| 11  | AWS IAM Hardening               | AWS         | 3h       | Moderate   | Planned |
+| 12  | AWS GuardDuty Configuration     | AWS         | 3h       | Advanced   | Planned |
+| 13  | S3 Bucket Security Hardening    | AWS         | 2h       | Moderate   | Planned |
+| 14  | Azure Sentinel Monitoring       | Azure       | 4h       | Advanced   | Planned |
+| 15  | Secure Terraform Infrastructure | Multi-cloud | 5h       | Expert     | Planned |
+| 16  | Cloud Vulnerability Scanning    | AWS/Azure   | 3h       | Advanced   | Planned |
+| 17  | VPC Security Architecture       | AWS         | 4h       | Advanced   | Planned |
+| 18  | Secrets Management              | AWS/Vault   | 3h       | Advanced   | Planned |
+| 19  | Disaster Recovery Planning      | Multi-cloud | 4h       | Advanced   | Planned |
+| 20  | Kubernetes Security Hardening   | K8s         | 5h       | Expert     | Planned |
 
 ---
 
-## 🛠️ Outils utilisés
+## Technology Stack
 
-### Cloud Providers
+### Cloud Platforms
 
-- **AWS** : IAM, GuardDuty, CloudTrail, S3, VPC, Lambda
-- **Azure** : Sentinel, Security Center, Key Vault
-- **GCP** : Security Command Center, IAM, Cloud Armor
+- **AWS:** IAM, GuardDuty, CloudTrail, S3, VPC, Lambda
+- **Azure:** Sentinel, Security Center, Key Vault, Monitor
+- **GCP:** Security Command Center, IAM, Cloud Armor
 
 ### Infrastructure as Code
 
-- **Terraform** : Multi-cloud IaC
-- **CloudFormation** : AWS natif
-- **Pulumi** : IaC avec langage de programmation
+- **Terraform:** Multi-cloud infrastructure provisioning
+- **CloudFormation:** AWS-native infrastructure templates
+- **Pulumi:** Programming language-based infrastructure
 
 ### Security Scanning
 
-- **Prowler** : AWS security assessment
-- **ScoutSuite** : Multi-cloud security audit
-- **Checkov** : IaC security scanning
-- **tfsec** : Terraform security scanner
+- **Prowler:** AWS security assessment tool
+- **ScoutSuite:** Multi-cloud security audit
+- **Checkov:** Infrastructure as Code security scanner
+- **tfsec:** Terraform security analysis
 
-### Containers & Orchestration
+### Container Security
 
-- **Kubernetes** : Container orchestration
-- **Docker** : Containerization
-- **Helm** : Package manager pour K8s
+- **Kubernetes:** Container orchestration platform
+- **Docker:** Containerization technology
+- **Helm:** Kubernetes package manager
 
 ---
 
-## 📖 Ressources complémentaires
+## Implementation Framework
+
+Cloud security laboratories follow structured methodology:
+
+1. **Architecture Design:** Define security requirements and cloud architecture
+2. **Infrastructure Deployment:** Provision resources using infrastructure as code
+3. **Security Configuration:** Implement security controls and policies
+4. **Validation Testing:** Verify security configurations and controls
+5. **Monitoring Setup:** Configure logging, alerting, and threat detection
+6. **Documentation:** Record configurations and operational procedures
+
+---
+
+## Security Standards
+
+Labs align with industry cloud security standards:
+
+- **CIS Benchmarks:** Cloud platform-specific security configurations
+- **NIST SP 800-53:** Security and privacy control catalog
+- **ISO/IEC 27017:** Cloud services security controls
+- **CSA Cloud Controls Matrix:** Cloud security control framework
+- **SOC 2 Type II:** Service organization control criteria
+
+---
+
+## Professional Applications
+
+These laboratories prepare for cloud security engineer roles:
+
+- Design and implementation of secure cloud architectures
+- Cloud compliance and security auditing
+- Cloud security monitoring and threat detection
+- Identity and access management administration
+- Disaster recovery and business continuity planning
+
+---
+
+## Additional Resources
 
 - [AWS Security Best Practices](https://aws.amazon.com/security/best-practices/)
 - [Azure Security Documentation](https://docs.microsoft.com/en-us/azure/security/)
@@ -79,24 +162,12 @@ Labs sur la sécurisation d'infrastructures cloud modernes : AWS, Azure, GCP. Co
 
 ---
 
-## 🎓 Certifications visées
+## Relevant Certifications
 
-- 🚧 **AWS Certified Security - Specialty**
-- 🚧 **Azure Security Engineer Associate**
-- 🚧 **Certified Kubernetes Security Specialist (CKS)**
-
----
-
-## 💼 Cas d'usage professionnels
-
-Ces labs préparent aux missions d'un **Cloud Security Engineer** :
-
-- ✅ Design d'architectures cloud sécurisées
-- ✅ Audit de conformité (SOC2, ISO 27001, RGPD)
-- ✅ Monitoring et détection de menaces cloud
-- ✅ Gestion des identités et accès (IAM)
-- ✅ Implémentation de stratégies de DR/BCP
+- AWS Certified Security - Specialty (in progress)
+- Azure Security Engineer Associate (planned)
+- Certified Kubernetes Security Specialist (CKS) (planned)
 
 ---
 
-[← Retour à l'accueil]({{ site.baseurl }}/){: .btn .btn-outline }
+[← Return to Home]({{ site.baseurl }}/){: .btn .btn-outline }

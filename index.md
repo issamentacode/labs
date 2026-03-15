@@ -1,148 +1,211 @@
 ---
 layout: default
-title: Accueil
+title: Home
 nav_order: 1
-description: "Documentation technique complète de mes 60 labs en cybersécurité, cloud, DevSecOps, réseaux et infrastructure"
+description: "Technical documentation for 60+ hands-on security laboratories covering SOC operations, cloud security, DevSecOps, threat intelligence, network administration, and infrastructure hardening"
 permalink: /
 ---
 
-# 🛡️ Labs Cybersécurité & Infrastructure
+# Security Labs Documentation
 
 {: .fs-9 }
 
-Documentation technique de mes projets pratiques en **SOC**, **Sécurité Cloud**, **DevSecOps**, **Threat Intelligence**, **Réseaux & Systèmes** et **Infrastructure**.
+Technical documentation for practical security implementations across **security operations**, **cloud infrastructure**, **DevSecOps practices**, **threat intelligence**, **network administration**, and **infrastructure deployment**.
 
 {: .fs-6 .fw-300 }
 
-[Voir mon Portfolio](https://issamentaportfolio.vercel.app){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Me contacter](mailto:issamono62@gmail.com){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Portfolio](https://issa-menta-portfolio.vercel.app){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }[Contact](mailto:issamono62@gmail.com){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## 🎯 À propos de cette documentation
+## Introduction
 
-Ce site regroupe l'ensemble de mes **travaux pratiques** et **projets techniques** dans le domaine de la cybersécurité, des réseaux et de l'infrastructure. Chaque lab est documenté avec :
+This documentation repository contains detailed implementation guides for 60+ security laboratories. Each lab provides comprehensive coverage of specific security domains, including architecture design, configuration procedures, validation methods, and troubleshooting guidance.
 
-- ✅ **Contexte professionnel** : Pourquoi ce lab est important
-- 🏗️ **Architecture technique** : Diagrammes et schémas
-- 🔧 **Configuration détaillée** : Commandes et étapes exactes
-- 📊 **Résultats & captures** : Preuves de fonctionnement
-- 🎓 **Compétences démontrées** : Ce que j'ai appris
+The laboratories are designed for security engineers, DevOps professionals, and IT practitioners seeking to develop practical skills in modern cybersecurity implementations.
 
----
+**Documentation Standards:**
 
-## 📚 Catégories de Labs
-
-### 🔍 SOC & Détection d'Intrusions
-
-**10 labs** sur la détection de menaces, l'analyse de logs et la réponse aux incidents.
-
-[Explorer les labs SOC →](/labs/soc-detection/)
+- Technical architecture diagrams and system design
+- Step-by-step configuration procedures
+- Validation and testing methodologies
+- Troubleshooting guides and common issues
+- Industry framework alignment (NIST, CIS, OWASP, MITRE ATT&CK)
 
 ---
 
-### ☁️ Sécurité Cloud & Infrastructure
+## Laboratory Categories
 
-**10 labs** sur AWS, Azure, Terraform et la sécurisation d'infrastructures cloud.
+### SOC & Detection Engineering
 
-[Explorer les labs Cloud →](/labs/cloud-security/)
+Security Operations Center implementations focusing on threat detection, log analysis, incident response, and proactive threat hunting.
 
----
+**Core Topics:**
 
-### 🔐 DevSecOps & CI/CD Sécurisé
+- SIEM deployment and configuration (Wazuh, ELK Stack, Splunk)
+- Detection rule development and optimization
+- Log correlation and event analysis
+- Incident response playbook creation
+- Threat hunting methodologies
+- Security operations automation
 
-**10 labs** sur l'intégration de la sécurité dans les pipelines de développement.
-
-[Explorer les labs DevSecOps →](/labs/devsecops/)
-
----
-
-### 🌐 Threat Intelligence & OSINT
-
-**10 labs** sur la collecte de renseignements sur les menaces et l'OSINT.
-
-[Explorer les labs Threat Intel →](/labs/threat-intel/)
+[Explore SOC Labs →](/labs/soc-detection/)
 
 ---
 
-### 🌐 Réseaux & Systèmes
+### Cloud Security
 
-**10 labs** sur l'administration réseau, la configuration de services et le monitoring.
+Implementation of security controls across major cloud platforms, focusing on identity management, network isolation, data protection, and compliance automation.
 
-[Explorer les labs Réseaux →](/labs/reseaux-systemes/)
+**Core Topics:**
 
----
+- AWS security (IAM, GuardDuty, CloudTrail, VPC)
+- Azure security (Sentinel, Security Center, Key Vault)
+- GCP security configurations
+- Infrastructure as Code security
+- Cloud compliance and auditing
+- Container and Kubernetes security
 
-### 🏗️ Infrastructure & Logiciels
-
-**10 labs** sur le déploiement d'infrastructures, la conteneurisation et l'hébergement.
-
-[Explorer les labs Infrastructure →](/labs/infrastructure-logiciels/)
-
----
-
-### 💼 Projets Business & Portfolio
-
-**10 labs** combinant technique et valorisation professionnelle.
-
-[Explorer les projets Business →](/labs/business/)
+[Explore Cloud Security Labs →](/labs/cloud-security/)
 
 ---
 
-## 🚀 Labs en cours de développement
+### DevSecOps
+
+Integration of security practices into software development and deployment pipelines, covering static analysis, dynamic testing, and supply chain security.
+
+**Core Topics:**
+
+- CI/CD security integration
+- Static Application Security Testing (SAST)
+- Dynamic Application Security Testing (DAST)
+- Software Composition Analysis (SCA)
+- Container image security scanning
+- Policy as Code implementation
+
+[Explore DevSecOps Labs →](/labs/devsecops/)
+
+---
+
+### Threat Intelligence
+
+Collection, analysis, and operationalization of threat intelligence, including OSINT techniques, indicator management, and intelligence-driven defense.
+
+**Core Topics:**
+
+- Threat intelligence platform deployment (MISP, TheHive)
+- Open-source intelligence (OSINT) methodologies
+- Indicator of Compromise (IOC) analysis
+- Threat actor profiling and tracking
+- Intelligence automation and enrichment
+- SIEM integration with threat feeds[Explore Threat Intelligence Labs →](/labs/threat-intel/)
+
+---
+
+### Networks & Systems
+
+Network security architecture, system hardening, secure communications, and infrastructure monitoring implementations.
+
+**Core Topics:**
+
+- VPN implementations (OpenVPN, WireGuard, IPSec)
+- DNS security and DNSSEC
+- Firewall configuration and management
+- Intrusion Detection and Prevention Systems
+- Network traffic analysis
+- System hardening and compliance
+
+[Explore Networks & Systems Labs →](/labs/reseaux-systemes/)
+
+---
+
+### Infrastructure & Software
+
+Deployment and hardening of infrastructure components, including web servers, databases, containerization platforms, and orchestration systems.
+
+**Core Topics:**
+
+- Web server security (Apache, Nginx)
+- Database security and encryption
+- Container platform security (Docker, Kubernetes)
+- Load balancing and high availability
+- Infrastructure as Code (Terraform, Ansible)
+- Backup and disaster recovery[Explore Infrastructure Labs →](/labs/infrastructure-logiciels/)
+
+---
+
+### Business & Portfolio
+
+Professional demonstration projects combining technical implementation with business value, portfolio development, and service deployment.
+
+**Core Topics:**
+
+- Email security hardening (SPF, DKIM, DMARC)
+- Professional portfolio deployment
+- Documentation infrastructure
+- Service monitoring and automation
+- Professional branding and networking
+
+[Explore Business Projects →](/labs/business/)
+
+---
+
+## Laboratory Status
 
 {: .note }
 
-> Ce site est **mis à jour régulièrement** au fur et à mesure de l'avancement des projets. Les labs marqués 🚧 sont en cours de réalisation.
+> This documentation is continuously updated as new laboratories are completed and existing implementations are refined. Laboratories marked as planned are currently in development.
 
-| Lab                                 | Statut      | Catégorie      |
-| ----------------------------------- | ----------- | -------------- |
-| Lab 36 - Email Hardening            | 🚧 En cours | Business       |
-| Lab 39 - SIEM via Cloudflare Tunnel | 📝 Planifié | Business       |
-| Lab 01 - Wazuh SIEM                 | 📝 Planifié | SOC            |
-| Lab 41 - Configuration DNS          | 📝 Planifié | Réseaux        |
-| Lab 51 - Stack LAMP Sécurisée       | 📝 Planifié | Infrastructure |
-
----
-
-## 💡 Pourquoi ces labs ?
-
-Ces projets démontrent ma capacité à :
-
-- **Déployer et sécuriser** des infrastructures modernes
-- **Analyser et répondre** aux incidents de sécurité
-- **Automatiser** les tâches de sécurité avec du code
-- **Documenter** de manière professionnelle
-- **Utiliser** les outils de l'industrie (SIEM, IDS, Cloud, CI/CD)
+| Laboratory               | Status      | Category           |
+| ------------------------ | ----------- | ------------------ |
+| Email Security Hardening | In Progress | Business           |
+| SIEM Cloudflare Tunnel   | Planned     | Business           |
+| Wazuh SIEM Deployment    | Planned     | SOC & Detection    |
+| DNS Configuration        | Planned     | Networks & Systems |
+| Secure LAMP Stack        | Planned     | Infrastructure     |
 
 ---
 
-## 📊 Vue d'ensemble
+## Technical Capabilities
 
-<div class="code-example" markdown="1">
+These laboratories demonstrate proficiency in:
 
-**60+ labs techniques** répartis sur :
+- Security Operations Center (SOC) operations and incident response
+- Cloud infrastructure security across major platforms
+- DevSecOps pipeline integration and automation
+- Threat intelligence collection and analysis
+- Network security architecture and implementation
+- Infrastructure deployment and hardening
 
-- 🔍 SOC & Détection (10 labs)
-- ☁️ Sécurité Cloud (10 labs)
-- 🔐 DevSecOps (10 labs)
-- 🌐 Threat Intelligence (10 labs)
-- 🌐 Réseaux & Systèmes (10 labs)
-- 🏗️ Infrastructure & Logiciels (10 labs)
-- 💼 Business & Portfolio (10 labs)
+---
 
-## </div>
+## Documentation Statistics
 
-## 📞 Contact & Liens
+**60+ Technical Laboratories** across seven categories:
 
-- **📧 Email** : [issamono62@gmail.com](mailto:issamono62@gmail.com)
-- **📞 Téléphone** : +33 7 73 29 49 31
-- **🌐 Portfolio** : [issamentaportfolio.vercel.app](https://issa-menta-portfolio.vercel.app)
-- **💼 LinkedIn** : [linkedin.com/in/issa-menta](https://linkedin.com/in/issa-menta)
-- **💻 GitHub** : [github.com/issamentacode](https://github.com/issamentacode)
-- **📍 Localisation** : 10 rue Sextius Michel, 15e arr. 75015 Paris, France
+- SOC & Detection Engineering (10 laboratories)
+- Cloud Security (10 laboratories)
+- DevSecOps (10 laboratories)
+- Threat Intelligence (5 laboratories)
+- Networks & Systems (10 laboratories)
+- Infrastructure & Software (10 laboratories)
+- Business & Portfolio (5 laboratories)
+
+---
+
+## Contact Information
+
+**Issa MENTA**  
+Cybersecurity Engineer
+
+- **Email:** issamono62@gmail.com
+- **Phone:** +33 7 73 29 49 31
+- **Portfolio:**[issa-menta-portfolio.vercel.app](https://issa-menta-portfolio.vercel.app)
+- **LinkedIn:**[linkedin.com/in/issa-menta](https://linkedin.com/in/issa-menta)
+- **GitHub:** [github.com/issamentacode](https://github.com/issamentacode)
+- **Location:** Paris, France
 
 ---
 
 {: .fs-3 }
-_Dernière mise à jour : Février 2026 • Disponible pour stage et emploi immédiatement_
+_Last Updated: February 2026 | Available for immediate employment and contract opportunities_

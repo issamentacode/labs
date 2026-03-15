@@ -1,99 +1,181 @@
 ---
 layout: default
-title: SOC & Détection
+title: SOC & Detection Engineering
 nav_order: 2
 has_children: true
+permalink: /soc-detection/
 ---
 
-# 🔍 SOC & Détection d'Intrusions
+# SOC & Detection Engineering
 
 {: .fs-7 }
 
-Labs pratiques simulant le quotidien d'un **SOC Analyst** : détection de menaces, analyse de logs, corrélation d'événements, réponse aux incidents et threat hunting proactif.
+Security Operations Center implementations, threat detection systems, log analysis procedures, incident response frameworks, and proactive threat hunting methodologies.
 
 ---
 
-## 🎯 Compétences développées
+## Overview
 
-- **Configuration SIEM** : Installation et tuning de Wazuh, ELK Stack, Splunk
-- **Règles de détection** : Création de règles custom pour détecter les menaces
-- **Analyse de logs** : Parsing et corrélation de logs multi-sources
-- **Use cases d'incidents** : Simulation d'attaques et investigation
-- **Playbooks de réponse** : Documentation des procédures d'intervention
-- **Threat Hunting** : Recherche proactive d'IOCs et de comportements suspects
+Security Operations Center (SOC) and detection engineering encompasses the operational aspects of cybersecurity monitoring, threat detection, incident response, and continuous security improvement. This category focuses on practical implementation of SIEM platforms, development of detection rules, log correlation techniques, and structured incident response procedures.
+
+## Core Competencies
+
+### SIEM Implementation
+
+Deployment and configuration of Security Information and Event Management platforms for centralized logging, event correlation, and security alerting.
+
+**Technologies:**
+
+- Wazuh: Open-source SIEM and intrusion detection
+- ELK Stack: Elasticsearch, Logstash, Kibana for log analysis
+- Splunk: Enterprise SIEM and data analytics platform
+
+### Detection Rule Development
+
+Creation and optimization of detection rules for identifying security threats across various attack vectors and stages of compromise.
+
+**Focus Areas:**
+
+- Custom rule development and tuning
+- Log parsing and normalization
+- Event correlation logic
+- False positive reduction
+- Performance optimization
+
+### Log Analysis
+
+Systematic analysis of security logs from diverse sources to identify anomalies, security events, and indicators of compromise.
+
+**Data Sources:**
+
+- Operating system logs (Windows Event, Syslog)
+- Network device logs (firewall, IDS/IPS)
+- Application logs (web servers, databases)
+- Cloud platform logs (CloudTrail, Azure Monitor)
+
+### Incident Response
+
+Structured procedures for detecting, analyzing, containing, and recovering from security incidents.
+
+**Capabilities:**
+
+- Incident classification and prioritization
+- Evidence collection and preservation
+- Containment and remediation procedures
+- Post-incident analysis and reporting
+- Playbook development and automation
+
+### Threat Hunting
+
+Proactive search for threats that evade existing security controls, using hypothesis-driven methodologies and data analysis techniques.
+
+**Methodologies:**
+
+- Hypothesis formulation and testing
+- MITRE ATT&CK framework alignment
+- Behavioral analysis and anomaly detection
+- Indicator of Compromise (IOC) investigation
 
 ---
 
-## 📚 Labs de cette catégorie
+## Laboratory Catalog
 
-| #      | Titre                              | Technologies             | Durée | Difficulté | Statut     |
-| ------ | ---------------------------------- | ------------------------ | ----- | ---------- | ---------- |
-| **01** | Installation & Config Wazuh SIEM   | Wazuh, VM, Docker        | 3h    | ⭐⭐       | 📝 À venir |
-| **02** | Règles de Détection Personnalisées | Wazuh Rules, Regex       | 4h    | ⭐⭐⭐     | 📝 À venir |
-| **03** | Use Case : Compromission de Compte | Wazuh, Linux Logs        | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **04** | Use Case : Ransomware Detection    | File Monitoring, Alerts  | 5h    | ⭐⭐⭐⭐   | 📝 À venir |
-| **05** | Use Case : Exfiltration de Données | Network Traffic Analysis | 4h    | ⭐⭐⭐⭐   | 📝 À venir |
-| **06** | Analyse Logs Windows Event Viewer  | Windows Event IDs        | 3h    | ⭐⭐       | 📝 À venir |
-| **07** | Playbook Phishing Complet          | Email Analysis, IOCs     | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **08** | Threat Hunting Proactif            | MITRE ATT&CK, KQL        | 5h    | ⭐⭐⭐⭐   | 📝 À venir |
-| **09** | Dashboard SOC Opérationnel         | Kibana, Grafana          | 3h    | ⭐⭐⭐     | 📝 À venir |
-| **10** | Reporting SOC Mensuel Automatisé   | Python, Jinja2           | 4h    | ⭐⭐⭐     | 📝 À venir |
-
----
-
-## 🛠️ Outils utilisés
-
-### SIEM
-
-- **Wazuh** : SIEM open-source, détection d'intrusion, compliance
-- **ELK Stack** : Elasticsearch + Logstash + Kibana pour analyse de logs
-- **Splunk** : Plateforme d'analyse de données de sécurité
-
-### IDS/IPS
-
-- **Suricata** : Network IDS/IPS open-source
-- **Snort** : Système de détection d'intrusion réseau
-
-### Forensics & Analysis
-
-- **Volatility** : Analyse de mémoire
-- **Autopsy** : Digital forensics
-- **Wireshark** : Analyse de trafic réseau
-
-### Scripting
-
-- **Python** : Automation et parsing de logs
-- **Bash** : Scripts système pour correlation
+| Lab | Title                             | Technologies            | Duration | Complexity | Status  |
+| --- | --------------------------------- | ----------------------- | -------- | ---------- | ------- |
+| 01  | Wazuh SIEM Deployment             | Wazuh, Docker           | 3h       | Moderate   | Planned |
+| 02  | Custom Detection Rule Development | Wazuh Rules, Regex      | 4h       | Advanced   | Planned |
+| 03  | Account Compromise Detection      | Wazuh, Linux Logs       | 3h       | Advanced   | Planned |
+| 04  | Ransomware Detection System       | File Monitoring, Alerts | 5h       | Expert     | Planned |
+| 05  | Data Exfiltration Detection       | Network Analysis        | 4h       | Expert     | Planned |
+| 06  | Windows Event Log Analysis        | Windows Event IDs       | 3h       | Moderate   | Planned |
+| 07  | Phishing Incident Response        | Email Analysis, IOCs    | 3h       | Advanced   | Planned |
+| 08  | Proactive Threat Hunting          | MITRE ATT&CK, KQL       | 5h       | Expert     | Planned |
+| 09  | SOC Operations Dashboard          | Kibana, Grafana         | 3h       | Advanced   | Planned |
+| 10  | Automated SOC Reporting           | Python, Jinja2          | 4h       | Advanced   | Planned |
 
 ---
 
-## 📖 Ressources complémentaires
+## Technology Stack
+
+### SIEM Platforms
+
+- **Wazuh:** Open-source security monitoring, intrusion detection, and compliance
+- **ELK Stack:** Scalable log aggregation, search, and visualization
+- **Splunk:** Enterprise security information and event management
+
+### Detection and Analysis
+
+- **Suricata:** Network-based intrusion detection and prevention
+- **Snort:** Network intrusion detection system
+- **YARA:** Malware identification and classification rules
+
+### Forensics and Investigation
+
+- **Volatility:** Memory forensics and analysis
+- **Autopsy:** Digital forensics platform
+- **Wireshark:** Network protocol analysis and packet capture
+
+### Automation and Scripting
+
+- **Python:** Security automation and log parsing
+- **Bash:** System-level automation and integration
+- **PowerShell:** Windows security automation
+
+---
+
+## Implementation Framework
+
+Laboratories follow a structured methodology:
+
+1. **Requirements Definition:** Identify detection use cases and requirements
+2. **Data Collection:** Configure log sources and collection infrastructure
+3. **Rule Development:** Create detection rules and correlation logic
+4. **Testing and Validation:** Verify detection accuracy and coverage
+5. **Tuning and Optimization:** Reduce false positives and improve performance
+6. **Documentation:** Record procedures and operational guidelines
+
+---
+
+## Security Frameworks
+
+Labs align with recognized security frameworks:
+
+- **MITRE ATT&CK:** Adversary tactics and techniques knowledge base
+- **Cyber Kill Chain:** Attack lifecycle and defensive strategies
+- **NIST Cybersecurity Framework:** Identify, Protect, Detect, Respond, Recover
+- **SANS Incident Response:** Preparation, Detection, Containment, Eradication, Recovery
+
+---
+
+## Professional Applications
+
+These laboratories prepare for Security Operations Center analyst roles:
+
+- Real-time security event monitoring and triage
+- Alert investigation and incident qualification
+- Security incident response and remediation
+- Detection rule development and maintenance
+- Threat hunting and proactive defense
+- Security operations metrics and reporting
+
+---
+
+## Additional Resources
 
 - [Wazuh Documentation](https://documentation.wazuh.com/)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
-- [SANS SOC Survey](https://www.sans.org/white-papers/)
+- [SANS SOC Resources](https://www.sans.org/white-papers/)
 - [Splunk Security Essentials](https://splunkbase.splunk.com/app/3435/)
 
 ---
 
-## 🎓 Certifications liées
+## Relevant Certifications
 
-- ✅ **CEH Fundamentals** (EC-Council)
-- ✅ **IBM Cybersecurity Analyst**
-- 🚧 **CompTIA Security+** (en cours)
-
----
-
-## 💼 Cas d'usage professionnels
-
-Ces labs préparent directement aux missions d'un **SOC Analyst Tier 1/2** :
-
-- ✅ Monitoring temps réel des événements de sécurité
-- ✅ Triage et qualification des alertes
-- ✅ Investigation d'incidents
-- ✅ Rédaction de rapports d'incident
-- ✅ Amélioration continue des règles de détection
+- CompTIA Security+
+- CEH (Certified Ethical Hacker) Fundamentals
+- IBM Cybersecurity Analyst Professional Certificate
+- GIAC Security Essentials (GSEC)
 
 ---
 
-[← Retour à l'accueil]({{ site.baseurl }}/){: .btn .btn-outline }
+[← Return to Home]({{ site.baseurl }}/){: .btn .btn-outline }
